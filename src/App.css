@@ -26,7 +26,7 @@ html{
 }
 .Intro-Container{
   height: auto;
-  width: 95%;
+  width: 90%;
   border: 1px solid white;
   background-color: white;
   border-radius: 50px;
@@ -40,6 +40,44 @@ html{
   text-align: center;
 }
 .Continue-Container{
+  width: 95%;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 25px;
   display: grid;
   grid-template-columns: auto auto auto;
+}
+.Continue-Card{
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  height: auto;
+  margin: 10px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 50px;
+  mix-blend-mode: screen;
+  cursor: pointer;
+}
+.Continue-Card:hover {
+  background-color: transparent;
+  mix-blend-mode: normal;
+  color: white;
+}
+.Continue-Resume{
+  margin-left: 25px;
+  margin-right: 0px;
+}
+.Continue-Projects{
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+.Continue-About-Me{
+  margin-left: 0px;
+  margin-right: 25px;
+}
+.Continue-Button{
+  cursor: pointer;
 }
